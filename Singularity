@@ -17,7 +17,7 @@ From: ubuntu:18.04
 
     pip3 install cffi cryptography
 
-    chmod -R go+rX /usr/local/lib/python3/dist-packages
+    chmod -R go+rX /usr/lib/python3/dist-packages
 
     chmod a+x /usr/local/bin/merge.py
 

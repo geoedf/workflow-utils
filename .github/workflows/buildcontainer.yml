@@ -68,7 +68,7 @@ jobs:
             sudo -E singularity build ${OUTPUT_CONTAINER} ${SINGULARITY_RECIPE}
 
             if [ -f "${OUTPUT_CONTAINER}" ]; then
-              singularity push -U ${OUTPUT_CONTAINER} library://geoedfproject/geoedf/workflowutils:latest
+            singularity push -U ${OUTPUT_CONTAINER} library://geoedfproject/framework/workflowutils:latest
             else
               echo "Container build failed."
             fi
