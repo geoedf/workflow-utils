@@ -13,7 +13,7 @@ From: ubuntu:18.04
 
 %post
 
-    apt-get update && apt-get -y install python python3 python3-pip wget curl
+    apt-get update && apt-get -y install python python3 python3-pip wget curl openssh-client
 
     pip3 install cffi cryptography
 
