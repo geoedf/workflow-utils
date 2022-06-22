@@ -8,8 +8,8 @@ From: ubuntu:18.04
     collect.py /usr/local/bin
 
 %environment
-    export PYTHONPATH=/usr/lib/python3/dist-packages:$PYTHONPATH
     export PATH=/usr/local/bin:$PATH
+    export PYTHONPATH=/usr/lib/python3/dist-packages:$PYTHONPATH
 
 %post
 
