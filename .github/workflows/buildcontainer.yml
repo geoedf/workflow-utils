@@ -37,7 +37,7 @@ jobs:
 
       - name: Install Singularity
         env:
-          SINGULARITY_VERSION: 3.5.2
+          SINGULARITY_VERSION: 3.7.3
         run: |
           sudo mkdir -p /usr/local/var/singularity/mnt && \
           mkdir -p /tmp/src/github.com/sylabs && \
